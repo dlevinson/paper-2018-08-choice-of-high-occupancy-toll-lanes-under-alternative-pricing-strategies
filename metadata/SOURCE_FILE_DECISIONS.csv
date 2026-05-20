@@ -1,0 +1,7 @@
+path,role,decision,reason
+paper/ChoiceofHOT-Published.pdf,final_published_paper,keep,Published TRR paper retained.
+data/derived_model_workbook/elasticity_points_2_offset_2.xlsx,derived_model_workbook,keep,Small author-created workbook containing aggregate model/elasticity calculations and formulas used for paper figures.
+data/derived_model_workbook/elasticity_points_2_offset_2_formulas.csv,modernized_formula_export,keep,Formula-text export of the primary model sheet for inspectability.
+data/derived_model_workbook/elasticity_points_2_offset_2_values.csv,modernized_value_export,keep,Value export of the primary model sheet for non-Excel users.
+raw MnPASS/MnDOT/Metropolitan Council trip tables and historical vehicle decisions,restricted_or_external_source_data,exclude,Not present in this package and not needed for public release of the derived model workbook.
+"drafts, response letters, review files, generated figure PDFs",non_archival,exclude,Not part of the paper/data/code archive boundary; figures can be regenerated or are already in the paper.
