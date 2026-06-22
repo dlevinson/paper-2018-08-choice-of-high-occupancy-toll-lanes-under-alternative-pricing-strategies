@@ -1,5 +1,9 @@
 # Choice of High Occupancy/Toll Lanes Under Alternative Pricing Strategies
 
+## Contribution
+
+This paper develops a lane-choice model for comparing dynamic HOT-lane pricing strategies. MnPASS evidence shows that a toll can initially signal downstream congestion and increase demand before its deterrent effect dominates, and demonstrates how incorporating general-purpose-lane density can better align price with the value of the managed lane.
+
 Paper ID: paper-2018-08
 
 This is a **public derived-model package**. The local paper folder contains one relevant shareable workbook, `elasticity_points_2_offset_2.xlsx`, with aggregate model/elasticity calculations and formulas. I did not find raw MnPASS/MnDOT/Metropolitan Council trip tables in the package, and they are intentionally outside this public archive boundary.
