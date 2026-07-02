@@ -1,13 +1,15 @@
 # License Status: Choice Of High Occupancy/Toll Lanes Under Alternative Pricing Strategies
 
-Generated: 2026-05-20 15:23:47 AEST
+Generated: 2026-07-02 11:55:00 AEST
 
-Recorded license/access note from the verified audit row: Set repository license for author-created workbook/code materials at upload; do not relicense the published TRR article PDF.
+Root license file: `LICENSE`
 
-Before public GitHub upload, add an explicit license for author-created code/data or mark the package as citation/provenance-only. Do not license third-party raw data or publisher PDFs.
+The root license applies CC BY 4.0 only to rights-cleared author-created repository documentation, package metadata, source-decision notes, data dictionaries, manifests, and the derived HOT-lane pricing model workbook/formula/value exports to the extent controlled by the paper authors or repository maintainers.
+
+No software license is asserted because no executable software, scripts, notebooks, model source code, simulation code, or paper-specific runtime code are staged.
 
 ## Practical Rule
 
-- Author-created code can receive an explicit software license only after finality/provenance is confirmed.
-- Author-created data/derived tables can receive an explicit data/documentation license only after source rights are clear.
-- Third-party raw data and publisher PDFs are not relicensed here.
+- The publication PDF retains its publisher, repository, or manuscript terms.
+- Raw MnPASS, MnDOT, Metropolitan Council, transponder, loop-detector, trip-table, corridor-demand, travel-time, traffic-operations, public-agency/source data, and other upstream/source materials retain their original terms.
+- Vendor/runtime/file-format structures and application metadata are not relicensed.

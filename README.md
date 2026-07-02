@@ -17,12 +17,21 @@ This is a **public derived-model package**. The local paper folder contains one 
 - `metadata/WORKBOOK_SHEETS.csv` - worksheet inventory, dimensions, and formula counts.
 - `metadata/SOURCE_FILE_DECISIONS.csv` - archive-boundary decisions.
 - `metadata/PACKAGE_FILE_MANIFEST.csv` - generated file listing.
+- `LICENSE` - operative repository license boundary for author-created package materials.
 
 ## Archive decision
 
-Ready for public upload as an author-created derived workbook package. The repository should not claim to provide raw transaction/trip-table data.
+Public release is limited to the author-created derived workbook package and supporting documentation. The repository should not claim to provide raw transaction, trip-table, transponder, loop-detector, corridor-demand, travel-time, or agency operating data.
 
-Last reviewed: 2026-05-17 22:55:20 Australia/Sydney.
+## License and provenance boundary
+
+The root `LICENSE` applies CC BY 4.0 only to rights-cleared author-created repository documentation, package metadata, source-decision notes, data dictionaries, manifests, and the derived HOT-lane pricing model workbook/formula/value exports to the extent controlled by the paper authors or repository maintainers.
+
+The publication PDF retains its publisher, repository, or manuscript terms. Raw MnPASS, MnDOT, Metropolitan Council, transponder, loop-detector, trip-table, corridor-demand, travel-time, traffic-operations, public-agency/source data, vendor/runtime/file-format structures, and other externally controlled materials are not relicensed.
+
+No software license is asserted because no executable software, scripts, notebooks, model source code, simulation code, or paper-specific runtime code are staged.
+
+Last reviewed: 2026-07-02 11:55:00 Australia/Sydney.
 
 <!-- package-hardening-status:start -->
 ## Package Hardening Status
