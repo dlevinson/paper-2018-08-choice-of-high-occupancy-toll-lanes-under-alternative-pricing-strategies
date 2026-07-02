@@ -1,6 +1,6 @@
 # Package Status: Choice Of High Occupancy/Toll Lanes Under Alternative Pricing Strategies
 
-Generated: 2026-05-20 15:23:47 AEST
+Generated: 2026-07-02 11:55:00 AEST
 
 ## Audit State
 
@@ -15,7 +15,7 @@ Generated: 2026-05-20 15:23:47 AEST
 
 ## Package Checks
 
-- Files in manifest: 11
+- Files in manifest: 12
 - Paper reference files: 2
 - Code candidates: 0
 - Data candidates: 3
@@ -26,4 +26,6 @@ Generated: 2026-05-20 15:23:47 AEST
 
 - Use `PACKAGE_MANIFEST.csv` as the upload checklist.
 - Treat files under `paper/` as local reference copies unless rights review explicitly clears them.
-- Confirm finality and license before repository creation.
+- The root `LICENSE` applies CC BY 4.0 only to rights-cleared author-created repository documentation, package metadata, source-decision notes, data dictionaries, manifests, and the derived HOT-lane pricing model workbook/formula/value exports to the extent controlled by the paper authors or repository maintainers.
+- Do not relicense the publication PDF, raw MnPASS/MnDOT/Metropolitan Council operational records, transponder records, loop-detector data, trip tables, corridor-demand or travel-time source data, public-agency/source data, vendor/runtime/file-format structures, or other externally controlled materials.
+- No software license is asserted because no executable software, scripts, notebooks, model source code, simulation code, or paper-specific runtime code are staged.

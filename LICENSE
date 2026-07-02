@@ -1,0 +1,45 @@
+Repository License And Provenance Boundary
+
+Copyright (c) 2018-2026 Michael Janson, David M. Levinson, and repository
+contributors
+
+This repository is a mixed research package. The license below applies only
+to materials that the paper authors or repository maintainers have rights to
+license, and it does not relicense publication PDFs, public-agency source
+data, operational records, vendor file-format structures, or third-party
+materials.
+
+## Creative Commons Attribution 4.0 International
+
+Author-created repository documentation, package metadata, source-decision
+notes, data dictionaries, manifests, and rights-cleared derived package
+metadata are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0):
+
+https://creativecommons.org/licenses/by/4.0/
+
+This license also covers the author-created derived HOT-lane pricing model
+workbook, formula export, and value export in `data/derived_model_workbook/`
+only to the extent they consist of author-created selection, cleaning,
+tabulation, model formulas, elasticity calculations, or analysis controlled
+by the paper authors or repository maintainers.
+
+## Materials Not Relicensed
+
+This repository license does not apply to:
+
+- The publication PDF under `paper/`, which retains its publisher,
+  repository, or manuscript terms.
+- Raw MnPASS, MnDOT, Metropolitan Council, transponder, loop-detector,
+  trip-table, corridor-demand, travel-time, traffic-operations, or other
+  public-agency/source data.
+- Microsoft Excel, Solver, LibreOffice, OpenXML, CSV, or other
+  vendor/runtime/file-format structures and application metadata.
+- Drafts, review letters, submission files, generated figure files, cited
+  references, and other third-party or externally controlled materials.
+
+## Software Boundary
+
+No executable software, scripts, notebooks, model source code, simulation
+code, or paper-specific runtime code are staged in this repository. This root
+license therefore grants no separate software license.
