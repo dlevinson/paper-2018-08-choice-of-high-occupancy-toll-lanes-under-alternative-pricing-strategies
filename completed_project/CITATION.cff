@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the original report(s) listed in README.md when using these materials."
+title: "MnPASS modeling and pricing project: recovered report and pricing workbook"
+type: dataset
+version: "2026-09-11"
+date-released: 2026-09-11
+repository-code: https://github.com/dlevinson/paper-2018-08-choice-of-high-occupancy-toll-lanes-under-alternative-pricing-strategies
+authors:
+  - name: "David Levinson"

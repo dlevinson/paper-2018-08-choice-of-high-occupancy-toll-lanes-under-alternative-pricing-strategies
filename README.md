@@ -6,7 +6,7 @@ This paper develops a lane-choice model for comparing dynamic HOT-lane pricing s
 
 Paper ID: paper-2018-08
 
-This is a **public derived-model package**. The local paper folder contains one relevant shareable workbook, `elasticity_points_2_offset_2.xlsx`, with aggregate model/elasticity calculations and formulas. I did not find raw MnPASS/MnDOT/Metropolitan Council trip tables in the package, and they are intentionally outside this public archive boundary.
+This is a **public derived-model package**. The original paper folder supplied one shareable workbook, `elasticity_points_2_offset_2.xlsx`, with aggregate model/elasticity calculations and formulas. I did not find raw MnPASS/MnDOT/Metropolitan Council trip tables in the package, and they are intentionally outside this public archive boundary.
 
 ## Contents
 
@@ -29,17 +29,14 @@ The root `LICENSE` applies CC BY 4.0 only to rights-cleared author-created repos
 
 The publication PDF retains its publisher, repository, or manuscript terms. Raw MnPASS, MnDOT, Metropolitan Council, transponder, loop-detector, trip-table, corridor-demand, travel-time, traffic-operations, public-agency/source data, vendor/runtime/file-format structures, and other externally controlled materials are not relicensed.
 
-No software license is asserted because no executable software, scripts, notebooks, model source code, simulation code, or paper-specific runtime code are staged.
+The recovered-project supplement includes an MIT-licensed archive verification script; no full simulation runtime is included.
 
-Last reviewed: 2026-07-02 11:55:00 Australia/Sydney.
+Last reviewed: 2026-09-11 Australia/Sydney.
 
-<!-- package-hardening-status:start -->
-## Package Hardening Status
+## Recovered completed-project archive
 
-Generated: 2026-05-20 15:23:47 AEST
+[The documented project supplement](completed_project/README.md) adds the June 2013 Task 2 report and `MnPassNewPricingAlgorithm.xlsx`, with original bytes, CSV/formula exports, citations, rights notes and checksums. This pricing workbook is project context; its exact relationship to the final 2018 calibration is not established.
 
-- Pipeline: `UPLOADED`
-- Sidecars added/updated: `PACKAGE_STATUS.md`, `PACKAGE_MANIFEST.csv`, `LICENSE_STATUS.md`.
-- Paper reference copies are for local audit convenience and are not public-upload assets without rights review.
-- Final GitHub upload should use the manifest include statuses and the license-status note.
-<!-- package-hardening-status:end -->
+[The private input companion](https://github.com/dlevinson/mnpass-pricing-project-restricted-inputs) preserves the recovered I-394 operating-data files and a tracked Task 7 working report. The public repository contains no raw operating records or subscriber/transponder microdata.
+
+Run `python3 completed_project/scripts/verify_archive.py` to verify the supplement. `metadata/REPOSITORY_CHECKSUMS.csv` covers the complete repository except the checksum file itself. See the supplement's README and SOURCE_MANIFEST for provenance and exclusions.

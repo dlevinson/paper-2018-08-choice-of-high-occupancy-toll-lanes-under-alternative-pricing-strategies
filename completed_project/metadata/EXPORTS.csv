@@ -1,0 +1,2 @@
+source,sheet,rows_including_source_headers,columns,export,conversion_status,method
+originals/MnPassNewPricingAlgorithm.xlsx,Sheet1,61,8,exports/MnPassNewPricingAlgorithm-8729562a/Sheet1.csv,converted_lossy,"Stored/cached values only; no recalculation, formatting, charts, comments or formulas. Original retained."

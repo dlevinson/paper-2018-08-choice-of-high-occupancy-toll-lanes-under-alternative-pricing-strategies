@@ -40,6 +40,7 @@ This repository license does not apply to:
 
 ## Software Boundary
 
-No executable software, scripts, notebooks, model source code, simulation
-code, or paper-specific runtime code are staged in this repository. This root
-license therefore grants no separate software license.
+The archive verification script under `completed_project/scripts/` is licensed
+under its accompanying MIT LICENSE. No full simulation or calibration code
+is supplied. The recovered project originals retain their existing terms;
+see `completed_project/LICENSE` and `completed_project/RIGHTS.md`.
